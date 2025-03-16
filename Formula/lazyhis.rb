@@ -14,4 +14,13 @@ class Lazyhis < Formula
   test do
     system "#{bin}/lazyhis", "--version"
   end
+
+  def caveats
+    <<~EOS
+    To start using lazyhis, add the following to your ~/.zshrc:
+
+      eval "$(lazyhis init zsh)"
+
+    EOS
+  end
 end
