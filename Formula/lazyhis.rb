@@ -3,6 +3,7 @@ class Lazyhis < Formula
   homepage "https://github.com/nobbmaestro/lazyhis"
   url "https://github.com/nobbmaestro/lazyhis.git", :tag => "0.1.0"
   sha256 "2600c7f4bd6db56dd39a5c617a278c54eef440c7ff39f1492077fa4d49b7a1db"
+  license "MIT"
 
   depends_on "go" => :build
 
