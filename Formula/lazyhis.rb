@@ -1,8 +1,8 @@
 class Lazyhis < Formula
   desc "simple terminal UI for shell history"
   homepage "https://github.com/nobbmaestro/lazyhis"
-  url "https://github.com/nobbmaestro/lazyhis.git", :tag => "0.2.1"
-  sha256 "2c79d09304922a3bc2eca5404693da642609c124"
+  url "https://github.com/nobbmaestro/lazyhis.git", :tag => "0.2.2"
+  sha256 "bd26c684f72652980bd2e5c5a1484dead2d3b714"
   license "MIT"
 
   depends_on "go" => :build
