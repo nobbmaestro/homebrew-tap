@@ -7,8 +7,9 @@ class Lazyhis < Formula
   depends_on "go" => :build
 
   def install
-    system "make", "build"
-    bin.install "build/lazyhis"
+    system "make", "install",
+           "DST_DIR=#{bin}",
+           "DST_MAN_DIR=#{man1}"
   end
 
   test do
